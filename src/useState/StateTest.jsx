@@ -14,8 +14,8 @@ const StateTest = () => {
     }
 	return (
 		<div>
+                <p>const [first, setfirst] = <b>useState</b>(second)</p>
 			<div>
-                <p>useState</p>
 				{counter} <button onClick={increment}>Increment</button>
 			</div>
             <div>
