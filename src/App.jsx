@@ -1,4 +1,5 @@
 import EffectTest from './useEffect/EffectTest'
+import LayoutEffectTest from './useLayoutEffect/LayoutEffectTest'
 import ReducerTest from './useReducer/reducerTest'
 import RefTest from './useRef/RefTest'
 import RefTwo from './useRef/RefTwo'
@@ -15,6 +16,7 @@ function App() {
 <EffectTest/>
 <RefTest/>
 <RefTwo/>
+<LayoutEffectTest/>
 </div>
   )
 }
