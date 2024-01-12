@@ -4,6 +4,7 @@ import ReducerTest from './useReducer/reducerTest'
 import RefTest from './useRef/RefTest'
 import RefTwo from './useRef/RefTwo'
 import StateTest from './useState/StateTest'
+import ImperativeHandleTest from './UseImperativeHandle/ImperativeHandleTest'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 <RefTest/>
 <RefTwo/>
 <LayoutEffectTest/>
+<ImperativeHandleTest/>
 </div>
   )
 }
