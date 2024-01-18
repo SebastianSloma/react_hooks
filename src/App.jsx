@@ -5,6 +5,7 @@ import RefTest from './useRef/RefTest'
 import RefTwo from './useRef/RefTwo'
 import StateTest from './useState/StateTest'
 import ImperativeHandleTest from './UseImperativeHandle/ImperativeHandleTest'
+import ContextTest from './useContext/ContextTest'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 <RefTwo/>
 <LayoutEffectTest/>
 <ImperativeHandleTest/>
+<ContextTest/>
 </div>
   )
 }

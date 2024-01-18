@@ -4,7 +4,7 @@ import User from "./User";
 
 export const AppContext = createContext(null);
 
-function ContextTutorial() {
+function ContextTest() {
   const [username, setUsername] = useState("");
 
   return (
@@ -14,4 +14,4 @@ function ContextTutorial() {
   );
 }
 
-export default ContextTutorial;
+export default ContextTest;
