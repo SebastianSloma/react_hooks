@@ -1,17 +1,18 @@
-import { useState, createContext } from "react";
-import Login from "./Login";
-import User from "./User";
+import  { useState, createContext } from 'react';
+import Login from './Login';
+import User from './User';
 
 export const AppContext = createContext(null);
 
 function ContextTest() {
-  const [username, setUsername] = useState("");
+	const [username, setUsername] = useState('');
 
-  return (
-    <AppContext.Provider value={{ username, setUsername }}>
-      <Login /> <User />
-    </AppContext.Provider>
-  );
+	return (
+		<AppContext.Provider value={{ username, setUsername }}>
+			<Login />
+			<User />
+		</AppContext.Provider>
+	);
 }
 
 export default ContextTest;
