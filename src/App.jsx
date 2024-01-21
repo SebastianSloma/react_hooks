@@ -5,7 +5,7 @@ import RefTest from './useRef/RefTest'
 import RefTwo from './useRef/RefTwo'
 import StateTest from './useState/StateTest'
 import ImperativeHandleTest from './UseImperativeHandle/ImperativeHandleTest'
-import MemoTest from './useMemo/MemoTest'
+// import MemoTest from './useMemo/MemoTest'
 
 // import ContextTest from './useContext/ContextTest'
 
@@ -23,7 +23,7 @@ function App() {
 <LayoutEffectTest/>
 <ImperativeHandleTest/>
 {/* <ContextTest/> */}
-<MemoTest/>
+{/* <MemoTest/> */}
 
 </div>
   )
