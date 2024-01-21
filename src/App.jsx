@@ -8,7 +8,7 @@ import ImperativeHandleTest from './UseImperativeHandle/ImperativeHandleTest'
 // import MemoTest from './useMemo/MemoTest'
 
 // import ContextTest from './useContext/ContextTest'
-
+// import CallBackTest from './useCallback/CallbackTest'
 
 function App() {
 
@@ -24,6 +24,7 @@ function App() {
 <ImperativeHandleTest/>
 {/* <ContextTest/> */}
 {/* <MemoTest/> */}
+{/* <CallBackTest/> */}
 
 </div>
   )
