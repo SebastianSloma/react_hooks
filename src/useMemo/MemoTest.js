@@ -29,7 +29,7 @@ export default function MemoTest() {
 		return longestName;
 	};
 
-	const getLongestName = useMemo(() => findLongestName(data), [toggle]);
+	const getLongestName = useMemo(() => findLongestName(data), [data]);
 
 	return (
 		<div className='App'>
@@ -39,7 +39,6 @@ export default function MemoTest() {
 				onClick={() => {
 					setToggle(!toggle);
 				}}>
-				{' '}
 				Toggle
 			</button>
 			{toggle && <h1> toggle </h1>}
